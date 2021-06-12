@@ -42,11 +42,11 @@ window.onload = function () {
   // Select Catagory
   var selectCat = function () {
     if (chosenCategory === categories[0]) {
-      catagoryName.innerHTML = "The Chosen Category Is Premier League Football Teams";
+      catagoryName.innerHTML = "The Chosen Category Is English Names of Herbal Drugs";
     } else if (chosenCategory === categories[1]) {
-      catagoryName.innerHTML = "The Chosen Category Is Films";
+      catagoryName.innerHTML = "The Chosen Category Is Latin Names of Herbal Drugs";
     } else if (chosenCategory === categories[2]) {
-      catagoryName.innerHTML = "The Chosen Category Is Cities";
+      catagoryName.innerHTML = "The Chosen Category Is Botanical Names of Medicinal Plants";
     }
   }
 
@@ -231,5 +231,3 @@ window.onload = function () {
     play();
   }
 }
-
-
