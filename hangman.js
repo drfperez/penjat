@@ -185,7 +185,7 @@ window.onload = function () {
     categories = [
         ["agnus-castus-fruit", "garlic", "ginger"],
         ["allii-sativi-bulbus", "cimicifugae-rhizoma","vitis-viniferae-folium"],
-        ["allium-sativus", "rhamnus-frangula"]
+        ["allium-sativus", "rhamnus-frangula","linum-usitatissimum"]
     ];
 
     chosenCategory = categories[Math.floor(Math.random() * categories.length)];
@@ -214,7 +214,7 @@ window.onload = function () {
         ["Herbal medicinal product for the treatment of premenstrual syndrome", "For the powder, the European Pharmacopoeia prescribes no less than 0.45% of allicin","Herbal medicinal product for the prevention of
 nausea and vomiting in motion sickness"],
         ["Garlic latin drug name", "Herbal medicinal product for the relief of menopausal complaints such as hot flushes and profuse sweating.","Herbal medicinal product for treatment of chronic venous insufficiency."],
-        ["Traditional herbal medicinal product used as an adjuvant for the prevention of atherosclerosis", "Herbal medicinal product for short-term use in constipation"]
+        ["Traditional herbal medicinal product used as an adjuvant for the prevention of atherosclerosis", "Herbal medicinal product for short-term use in constipation","Herbal medicinal product for the treatment of habitual constipation or in conditions in which easy defaecation with soft stool is desirable."]
     ];
 
     var catagoryIndex = categories.indexOf(chosenCategory);
