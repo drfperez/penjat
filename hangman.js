@@ -183,7 +183,7 @@ window.onload = function () {
   // Play
   play = function () {
     categories = [
-        ["agnus-castus-fruit", "garlic"],
+        ["agnus-castus-fruit", "garlic", "ginger"],
         ["allii-sativi-bulbus", "cimicifugae-rhizoma"],
         ["allium-sativus", "rhamnus-frangula"]
     ];
@@ -211,7 +211,8 @@ window.onload = function () {
     hint.onclick = function() {
 
       hints = [
-        ["Herbal medicinal product for the treatment of premenstrual syndrome", "For the powder, the European Pharmacopoeia prescribes no less than 0.45% of allicin"],
+        ["Herbal medicinal product for the treatment of premenstrual syndrome", "For the powder, the European Pharmacopoeia prescribes no less than 0.45% of allicin","Herbal medicinal product for the prevention of
+nausea and vomiting in motion sickness"],
         ["Garlic latin drug name", "Herbal medicinal product for the relief of menopausal complaints such as hot flushes and profuse sweating."],
         ["Traditional herbal medicinal product used as an adjuvant for the prevention of atherosclerosis", "Herbal medicinal product for short-term use in constipation"]
     ];
