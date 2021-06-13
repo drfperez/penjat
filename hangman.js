@@ -42,11 +42,11 @@ window.onload = function () {
   // Select Catagory
   var selectCat = function () {
     if (chosenCategory === categories[0]) {
-      catagoryName.innerHTML = "The Chosen Category Is English Names of Herbal Drugs";
+      catagoryName.innerHTML = "Find English names of herbal drugs";
     } else if (chosenCategory === categories[1]) {
-      catagoryName.innerHTML = "The Chosen Category Is Latin Names of Herbal Drugs";
+      catagoryName.innerHTML = "Find Latin names of herbal drugs";
     } else if (chosenCategory === categories[2]) {
-      catagoryName.innerHTML = "The Chosen Category Is Botanical Names of Medicinal Plants";
+      catagoryName.innerHTML = "Find botanical names of medicinal plants";
     }
   }
 
