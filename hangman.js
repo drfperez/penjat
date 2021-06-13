@@ -183,9 +183,9 @@ window.onload = function () {
   // Play
   play = function () {
     categories = [
-        ["everton", "liverpool", "swansea", "chelsea", "hull", "manchester-city", "newcastle-united"],
-        ["alien", "dirty-harry", "gladiator", "finding-nemo", "jaws"],
-        ["manchester", "milan", "madrid", "amsterdam", "prague"]
+        ["agnus-castus-fruit", "garlic"],
+        ["allii-sativi-bulbus", "cimicifugae-rhizoma"],
+        ["allium-sativus", "rhamnus-frangula"]
     ];
 
     chosenCategory = categories[Math.floor(Math.random() * categories.length)];
@@ -211,9 +211,10 @@ window.onload = function () {
     hint.onclick = function() {
 
       hints = [
-        ["Based in Mersyside", "Based in Mersyside", "First Welsh team to reach the Premier Leauge", "Owned by A russian Billionaire", "Once managed by Phil Brown", "2013 FA Cup runners up", "Gazza's first club"],
-        ["Science-Fiction horror film", "1971 American action film", "Historical drama", "Anamated Fish", "Giant great white shark"],
-        ["Northern city in the UK", "Home of AC and Inter", "Spanish capital", "Netherlands capital", "Czech Republic capital"]
+        ["Herbal medicinal product for the treatment of premenstrual syndrome", "For the powder, the European Pharmacopoeia prescribes no less than 0.45% of allicin"],
+        ["Garlic latin drug name", "Herbal medicinal product for the relief of menopausal complaints such as hot flushes and profuse sweating."],
+        ["Traditional herbal medicinal product used as an
+adjuvant for the prevention of atherosclerosis", "Herbal medicinal product for short-term use in"]
     ];
 
     var catagoryIndex = categories.indexOf(chosenCategory);
