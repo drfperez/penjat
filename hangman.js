@@ -213,8 +213,7 @@ window.onload = function () {
       hints = [
         ["Herbal medicinal product for the treatment of premenstrual syndrome", "For the powder, the European Pharmacopoeia prescribes no less than 0.45% of allicin"],
         ["Garlic latin drug name", "Herbal medicinal product for the relief of menopausal complaints such as hot flushes and profuse sweating."],
-        ["Traditional herbal medicinal product used as an
-adjuvant for the prevention of atherosclerosis", "Herbal medicinal product for short-term use in constipation"]
+        ["Traditional herbal medicinal product used as an adjuvant for the prevention of atherosclerosis", "Herbal medicinal product for short-term use in constipation"]
     ];
 
     var catagoryIndex = categories.indexOf(chosenCategory);
